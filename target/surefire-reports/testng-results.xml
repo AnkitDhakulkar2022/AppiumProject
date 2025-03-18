@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T12:29:46 IST" name="Suite" finished-at="2025-03-18T12:31:10 IST" duration-ms="83864">
+  <suite started-at="2025-03-18T14:45:14 IST" name="Suite" finished-at="2025-03-18T14:46:34 IST" duration-ms="79873">
     <groups>
       <group name="Smoke">
-        <method signature="E_CommerceTestCase_4_Hybrid_WebView.fillform(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@2ab4bc72]" name="fillform" class="MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView"/>
+        <method signature="E_CommerceTestCase_4_Hybrid_WebView.fillform(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@6cb107fd]" name="fillform" class="MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-03-18T12:29:46 IST" name="End To End Framework" finished-at="2025-03-18T12:31:09 IST" duration-ms="83152">
+    <test started-at="2025-03-18T14:45:14 IST" name="End To End Framework" finished-at="2025-03-18T14:45:54 IST" duration-ms="40248">
       <class name="MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@2ab4bc72]" started-at="2025-03-18T12:29:46 IST" name="configureAppium" finished-at="2025-03-18T12:30:42 IST" duration-ms="56333" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@6cb107fd]" started-at="2025-03-18T14:45:14 IST" name="configureAppium" finished-at="2025-03-18T14:45:31 IST" duration-ms="17071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="fillform(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@2ab4bc72]" started-at="2025-03-18T12:30:42 IST" name="fillform" data-provider="getData" finished-at="2025-03-18T12:31:07 IST" duration-ms="24571" status="PASS">
+        <test-method signature="fillform(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@6cb107fd]" started-at="2025-03-18T14:45:31 IST" name="fillform" data-provider="getData" finished-at="2025-03-18T14:45:53 IST" duration-ms="21217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,13 +35,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillform -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@2ab4bc72]" started-at="2025-03-18T12:31:07 IST" name="tearDown" finished-at="2025-03-18T12:31:09 IST" duration-ms="2160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView@6cb107fd]" started-at="2025-03-18T14:45:53 IST" name="tearDown" finished-at="2025-03-18T14:45:54 IST" duration-ms="1719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MobileAutomation.MobileAutomationFramework.E_CommerceTestCase_4_Hybrid_WebView -->
     </test> <!-- End To End Framework -->
-    <test started-at="2025-03-18T12:31:10 IST" name="Error validation test" finished-at="2025-03-18T12:31:10 IST" duration-ms="0">
+    <test started-at="2025-03-18T14:45:55 IST" name="Error validation test" finished-at="2025-03-18T14:46:34 IST" duration-ms="38850">
+      <class name="MobileAutomation.MobileAutomationFramework.MultipleTestScenario">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:MobileAutomation.MobileAutomationFramework.MultipleTestScenario@16150369]" started-at="2025-03-18T14:45:55 IST" name="configureAppium" finished-at="2025-03-18T14:46:10 IST" duration-ms="14840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="ToastErrorMessage_Validation()[pri:1, instance:MobileAutomation.MobileAutomationFramework.MultipleTestScenario@16150369]" started-at="2025-03-18T14:46:10 IST" name="ToastErrorMessage_Validation" finished-at="2025-03-18T14:46:18 IST" duration-ms="7811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToastErrorMessage_Validation -->
+        <test-method signature="Positive_Flow()[pri:2, instance:MobileAutomation.MobileAutomationFramework.MultipleTestScenario@16150369]" started-at="2025-03-18T14:46:18 IST" name="Positive_Flow" finished-at="2025-03-18T14:46:32 IST" duration-ms="14678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_Flow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileAutomation.MobileAutomationFramework.MultipleTestScenario@16150369]" started-at="2025-03-18T14:46:32 IST" name="tearDown" finished-at="2025-03-18T14:46:34 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileAutomation.MobileAutomationFramework.MultipleTestScenario -->
     </test> <!-- Error validation test -->
   </suite> <!-- Suite -->
 </testng-results>
