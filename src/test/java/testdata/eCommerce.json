@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Ankit",
+		"gender": "Male",
+		"country": "Argentina"
+	}
+	
+]
+
+
+
+//If you have multiple data the write like below code
+
+/*[
+	{
+		"name": "Ankit",
+		"gender": "Male",
+		"country": "Argentina"
+	},
+	{
+
+		"name": "xyz",
+		"gender": "MalFemale",
+		"country": "Argentina"
+	}
+	
+	
+	
+]*/
